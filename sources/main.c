@@ -6,11 +6,11 @@
 /*   By: tkomeno <tkomeno@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/27 19:37:07 by tkomeno           #+#    #+#             */
-/*   Updated: 2022/10/27 19:44:20 by tkomeno          ###   ########.fr       */
+/*   Updated: 2022/10/29 01:47:23 by tkomeno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/tdd.h"
+#include "tdd.h"
 
 int main(void)
 {

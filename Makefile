@@ -6,7 +6,7 @@
 #    By: tkomeno <tkomeno@student.42tokyo.jp>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/18 11:44:09 by tkomeno           #+#    #+#              #
-#    Updated: 2022/10/27 19:47:36 by tkomeno          ###   ########.fr        #
+#    Updated: 2022/10/29 01:50:56 by tkomeno          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,8 @@ LIBS_PATH	=	-L$(LIBFT_PATH) -L$(FT_PRINTF_PATH)
 
 LIBS		=	-lft -lftprintf
 
-FILES 		=	main.c
+FILES 		=	main.c \
+				abs.c
 
 SRCS		=	$(addprefix sources/,$(FILES))
 

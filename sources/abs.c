@@ -1,23 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   tdd.h                                              :+:      :+:    :+:   */
+/*   abs.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tkomeno <tkomeno@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/27 19:42:30 by tkomeno           #+#    #+#             */
-/*   Updated: 2022/10/29 01:50:47 by tkomeno          ###   ########.fr       */
+/*   Created: 2022/10/29 01:49:51 by tkomeno           #+#    #+#             */
+/*   Updated: 2022/10/29 01:50:40 by tkomeno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef TDD_H
-#define TDD_H
+#include "tdd.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "../libraries/libft/includes/libft.h"
-#include "../libraries/ft_printf/includes/ft_printf.h"
-
-signed int	abs(signed int n);
-
-#endif
+signed int	abs(signed int n)
+{
+	return (n >= 0 ? n : -n);
+}
